@@ -1,4 +1,4 @@
-FROM ghcr.io/atendai/evolution-api:latest
-ENV AUTHENTICATION_API_KEY=babu_secret_key_2025
+FROM atendai/evolution-api:latest
+ENV PORT=8080
+ENV SERVER_PORT=8080
 EXPOSE 8080
-
