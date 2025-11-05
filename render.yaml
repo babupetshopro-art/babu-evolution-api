@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: babu-evolution-api
+    env: docker
+    plan: free
+    autoDeploy: true
